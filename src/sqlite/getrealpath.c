@@ -16,7 +16,7 @@
       misrepresented as being the original software.
    3. This notice may not be removed or altered from any source distribution. */
 
-#include "config.h"
+#include "../config.h"
 #include "getrealpath.h"
 #include "../fdupes/dir.h"
 #include "sdirname.h"
