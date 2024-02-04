@@ -23,8 +23,8 @@
 #include <stdlib.h>
 #include <wchar.h>
 #include "ncurses-print.h"
-#include "errormsg.h"
-#include "mbstowcs_escape_invalid.h"
+#include "../fdupes/errormsg.h"
+#include "../fdupes/mbstowcs_escape_invalid.h"
 #include "positive_wcwidth.h"
 
 void putline(WINDOW *window, const char *str, const int line, const int columns, const int compensate_indent)

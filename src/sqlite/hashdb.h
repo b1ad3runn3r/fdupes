@@ -22,7 +22,7 @@
 #ifndef HASHDB_H
 #define HASHDB_H
 
-#include "fdupes.h"
+#include "../fdupes/fdupes.h"
 #include <sqlite3.h>
 
 sqlite3 *hashdb_open(const char *path);

@@ -22,7 +22,7 @@
 #ifndef FILEGROUP_H
 #define FILEGROUP_H
 
-#include "fdupes.h"
+#include "../fdupes/fdupes.h"
 
 struct groupfile
 {

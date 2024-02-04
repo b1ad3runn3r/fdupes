@@ -18,7 +18,7 @@
 
 #include "config.h"
 #include "getrealpath.h"
-#include "dir.h"
+#include "../fdupes/dir.h"
 #include "sdirname.h"
 #include "sbasename.h"
 #include <string.h>

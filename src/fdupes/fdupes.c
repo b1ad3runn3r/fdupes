@@ -41,7 +41,7 @@
 #else
   #include <curses.h>
 #endif
-#include "ncurses-interface.h"
+#include "../ncurses/ncurses-interface.h"
 #endif
 #include "fdupes.h"
 #include "confirmmatch.h"
@@ -52,9 +52,9 @@
 #include "removeifnotchanged.h"
 #ifndef NO_SQLITE
 #define FDUPES_DATABASE_DIRECTORY FDUPES_CACHE_DIRECTORY "/" FDUPES_HASH_DATABASE_NAME
-  #include "hashdb.h"
-  #include "getrealpath.h"
-  #include "xdgbase.h"
+  #include "../sqlite/hashdb.h"
+  #include "../sqlite/getrealpath.h"
+  #include "../sqlite/xdgbase.h"
 #endif
 
 char *program_name;

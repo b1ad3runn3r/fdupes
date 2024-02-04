@@ -36,14 +36,14 @@
 #include "ncurses-status.h"
 #include "ncurses-print.h"
 #include "fileaction.h"
-#include "mbstowcs_escape_invalid.h"
+#include "../fdupes/mbstowcs_escape_invalid.h"
 #include "positive_wcwidth.h"
 #include "commandidentifier.h"
 #include "filegroup.h"
-#include "errormsg.h"
-#include "log.h"
-#include "sigint.h"
-#include "flags.h"
+#include "../fdupes/errormsg.h"
+#include "../fdupes/log.h"
+#include "../fdupes/sigint.h"
+#include "../fdupes/flags.h"
 
 char *fmttime(time_t t);
 

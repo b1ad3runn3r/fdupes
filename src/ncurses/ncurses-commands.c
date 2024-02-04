@@ -23,16 +23,16 @@
 #include "ncurses-status.h"
 #include "ncurses-commands.h"
 #include "fileaction.h"
-#include "flags.h"
-#include "confirmmatch.h"
-#include "errormsg.h"
+#include "../fdupes/flags.h"
+#include "../fdupes/confirmmatch.h"
+#include "../fdupes/errormsg.h"
 #include "wcs.h"
-#include "mbstowcs_escape_invalid.h"
-#include "log.h"
-#include "removeifnotchanged.h"
+#include "../fdupes/mbstowcs_escape_invalid.h"
+#include "../fdupes/log.h"
+#include "../fdupes/removeifnotchanged.h"
 #ifndef NO_SQLITE
-  #include "hashdb.h"
-  #include "getrealpath.h"
+  #include "../sqlite/hashdb.h"
+  #include "../sqlite/getrealpath.h"
 #endif
 #include <wchar.h>
 #include <pcre2.h>

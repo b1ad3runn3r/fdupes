@@ -29,7 +29,7 @@
 #include "getrealpath.h"
 #include "sbasename.h"
 #include "sdirname.h"
-#include "errormsg.h"
+#include "../fdupes/errormsg.h"
 
 #define DATABASE_VERSION 1
 

@@ -18,7 +18,7 @@
 
 #include <stdlib.h>
 #include "wcs.h"
-#include "mbstowcs_escape_invalid.h"
+#include "../fdupes/mbstowcs_escape_invalid.h"
 
 /* compare wide and multibyte strings */
 int wcsmbcscmp(wchar_t *s1, char *s2)
