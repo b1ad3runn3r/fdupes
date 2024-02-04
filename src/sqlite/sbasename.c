@@ -1,5 +1,3 @@
-/* The contents of this file are in the public domain.
-*/
 #include "sbasename.h"
 #include <string.h>
 #include <libgen.h>

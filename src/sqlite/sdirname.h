@@ -1,5 +1,3 @@
-/* The contents of this file are in the public domain.
-*/
 #ifndef SNDIRNAME_H
 #define SNDIRNAME_H
 

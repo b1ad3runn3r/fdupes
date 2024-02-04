@@ -1,5 +1,3 @@
-/* The contents of this file are in the public domain.
-*/
 #include "../config.h"
 #include <stdlib.h>
 #include <sys/types.h>

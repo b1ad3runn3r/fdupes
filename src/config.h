@@ -1,6 +1,3 @@
-/* config.h.  Generated from config.h.in by configure.  */
-/* config.h.in.  Generated from configure.ac by autoheader.  */
-
 /* number of bytes to read per read call */
 #define CHUNK_SIZE 8192
 
